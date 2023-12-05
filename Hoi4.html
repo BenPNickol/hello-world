@@ -2,6 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <script src="JavaScript.js" defer></script>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <style>
@@ -62,24 +63,32 @@
             background-color: goldenrod;
             color: brown;
         }
+        .But{
+            background-color: grey;
+            font-weight: bold;
+            color: black;
+            width: 1425px;
+        }
         /* ^(^>^)v "thats not.. thats not brown lol" */
     </style>
 </head>
 <body>
     <hr>
-    <h1 class="TopA"><a class="color" href="https://www.reddit.com/r/hoi4/"target=_blank>Hearts of Iron 4</a> ; <a class="color" href="index.html">Return</a></h1>
-    <h3 class="TopB"><a class="color2" href=""target=_blank>By BenPNickol</a></h3>
+    <h1 class="TopA" id='Top'><a class="color" href="https://www.reddit.com/r/hoi4/"target=_blank>Hearts of Iron 4</a> ; <a class="color" href="index.html">Return</a></h1>
+    <h3 class="TopB" id="BPN"><a class="color2" href=""target=_blank>By BenPNickol</a></h3>
     <!-- <(>~<)> "Why is reddit blocked!"-->
     <hr>
     <center>
     <a href="https://www.google.com/url?sa=i&url=https%3A%2F%2Fencrypted-tbn1.gstatic.com%2Fimages%3Fq%3Dtbn%3AANd9GcRe3GHLb2e0XcO4AKwCuXHO5i3KNrLeSESHtMwWZnXpZnVrIliB&psig=AOvVaw3CSh1vocW3YGs5DZWxDkss&ust=1696338000344000&source=images&cd=vfe&ved=0CBAQjRxqFwoTCPCI3NG114EDFQAAAAAdAAAAABAE"target=_blank><img src ="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQVnr57cTpEEHl7HarymdraGh3Tg0GX48_ksG8Scq8OnQ8CHUAo1iZkqANZrVn3KMroZ7Bmkg&s=10"></a>
     </center>
     <hr>
-    <h1 class="topA">Guide</h1>
-    <h1 class="topA">review</h1>
-    <h1 class="topA">Buy!</h1>
+    <h1 class="topA" id="Other">Guide</h1>
+    <h1 class="topA" id="Other2">review</h1>
+    <h1 class="topA" id="Other3">Buy!</h1>
     <iframe width="472." height="315" src="https://www.youtube.com/embed/d5Yt5_WPbhU?si=ngnfyokur-D3yU6M" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
     <iframe width="472." height="315" src="https://www.youtube.com/embed/KPXD6RwRdiY?si=7BgLlxQK68wuM_K1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
     <iframe width="472." height="315" src="https://www.youtube.com/embed/Q1bvX2-XrAQ?si=4ynPheVf5xrMsJzr" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+    <button class="But" onclick="dark()">Night Mode</button>
+    <button class='But' onclick="light()">Light mode</button>
 </body>
 </html>
